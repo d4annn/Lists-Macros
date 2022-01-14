@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "listmacros",
+  "version": "${version}",
+
+  "name": "List macros",
+  "description": "Kele pto",
+  "authors": [
+    "Getta"
+  ],
+  "contact": {
+    "sources": "https://github.com/gettaaa"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "getta.listmacros.ListMacros"
+    ],
+    "modmenu": [
+      "getta.listmacros.screen.ModMenuImplementation"
+    ]
+  },
+
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
